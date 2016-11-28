@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard"
+  ],
+  "plugins": [
+    "babel"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "comma-dangle": [2, "always-multiline"]
+  }
+}
