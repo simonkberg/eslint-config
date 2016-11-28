@@ -1,0 +1,20 @@
+exports[`@simonkberg/eslint-config should match the snapshot 1`] = `
+Object {
+  "env": Object {
+    "browser": true,
+  },
+  "extends": Array [
+    "standard",
+  ],
+  "parser": "babel-eslint",
+  "plugins": Array [
+    "babel",
+  ],
+  "rules": Object {
+    "comma-dangle": Array [
+      2,
+      "always-multiline",
+    ],
+  },
+}
+`;
