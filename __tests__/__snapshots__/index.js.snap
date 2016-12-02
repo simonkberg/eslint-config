@@ -13,7 +13,13 @@ Object {
   "rules": Object {
     "comma-dangle": Array [
       2,
-      "always-multiline",
+      Object {
+        "arrays": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline",
+        "imports": "always-multiline",
+        "objects": "always-multiline",
+      },
     ],
   },
 }
