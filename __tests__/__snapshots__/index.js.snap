@@ -16,7 +16,7 @@ Object {
       Object {
         "arrays": "always-multiline",
         "exports": "always-multiline",
-        "functions": "always-multiline",
+        "functions": "never",
         "imports": "always-multiline",
         "objects": "always-multiline",
       },
