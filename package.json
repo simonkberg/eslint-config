@@ -34,7 +34,7 @@
     "eslint": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
+    "eslint": "^3.16.1",
     "jest-cli": "^19.0.2",
     "semantic-release": "^6.3.2"
   },
