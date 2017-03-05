@@ -11,7 +11,7 @@ describe('@simonkberg/eslint-config', () => {
   it('should load config in eslint', () => {
     const cli = new CLIEngine({
       useEslintrc: false,
-      configFile: 'eslintrc.json',
+      configFile: 'index.js',
     })
 
     const stub = 'const foo = 1\nconst bar = baz => baz\nbar(foo)\n'
