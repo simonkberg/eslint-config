@@ -13,6 +13,10 @@ Object {
     "babel",
   ],
   "rules": Object {
+    "babel/semi": Array [
+      2,
+      "never",
+    ],
     "comma-dangle": Array [
       2,
       Object {
@@ -23,6 +27,12 @@ Object {
         "objects": "always-multiline",
       },
     ],
+    "no-mixed-operators": 0,
+    "object-curly-spacing": Array [
+      0,
+      "always",
+    ],
+    "semi": 0,
   },
 }
 `;
