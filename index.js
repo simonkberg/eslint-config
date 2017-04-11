@@ -14,7 +14,7 @@ module.exports = {
         imports: 'always-multiline',
         exports: 'always-multiline',
         // Prevent trailing commas in functions as this is
-        // still not videly supported.
+        // still not widely supported.
         functions: 'never',
       },
     ],
