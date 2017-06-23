@@ -3,9 +3,9 @@ cache: yarn
 notifications:
   email: false
 node_js:
-  - '7'
-  - '6'
-  - '4'
+  - node
+  - lts/boron
+  - lts/argon
 after_success:
   - yarn semantic-release
 branches:
