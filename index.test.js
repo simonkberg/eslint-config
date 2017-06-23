@@ -1,4 +1,4 @@
-/* eslint-env jasmine */
+/* eslint-env jest */
 
 const path = require('path')
 const config = require('./index.js')
