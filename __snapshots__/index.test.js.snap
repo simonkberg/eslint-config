@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@simonkberg/eslint-config should match the snapshot 1`] = `
+Object {
+  "extends": Array [
+    "node_modules/eslint-config-standard/index.js",
+    "node_modules/eslint-config-prettier/index.js",
+  ],
+}
+`;
