@@ -10,7 +10,7 @@
     "prettier:format": "yarn prettier -- --write '**/*.js'",
     "precommit": "lint-staged",
     "prerelease": "yarn test",
-    "release": "standard-version"
+    "release": "standard-version -s"
   },
   "repository": {
     "type": "git",
