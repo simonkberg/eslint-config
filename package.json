@@ -48,10 +48,10 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": ">=3.19.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.1",
     "husky": "^0.14.0",
     "jest": "^20.0.4",
     "lint-staged": "^4.0.0",
