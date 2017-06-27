@@ -6,8 +6,8 @@
   "scripts": {
     "test": "yarn prettier:check && eslint . && jest",
     "prettier": "prettier --no-semi --single-quote --trailing-comma es5",
-    "prettier:check": "yarn prettier -- --list-different '**/*.js'",
-    "prettier:format": "yarn prettier -- --write '**/*.js'",
+    "prettier:check": "yarn prettier -- --list-different '{**/,}*.js'",
+    "prettier:format": "yarn prettier -- --write '{**/,}*.js'",
     "precommit": "lint-staged",
     "prerelease": "yarn test",
     "release": "standard-version -s"
