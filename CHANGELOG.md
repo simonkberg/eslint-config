@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.2.0"></a>
+# [7.2.0](https://github.com/simonkberg/eslint-config/compare/v7.1.0...v7.2.0) (2017-08-21)
+
+
+### Features
+
+* Upgrade dependencies ([#24](https://github.com/simonkberg/eslint-config/issues/24)) ([098bbaa](https://github.com/simonkberg/eslint-config/commit/098bbaa))
+
+
+
 <a name="7.1.0"></a>
 # [7.1.0](https://github.com/simonkberg/eslint-config/compare/v7.0.0...v7.1.0) (2017-06-27)
 
