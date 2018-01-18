@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/simonkberg/eslint-config#readme",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">= 6"
   },
   "lint-staged": {
     "*.js": [
