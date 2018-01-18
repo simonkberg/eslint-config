@@ -4,6 +4,5 @@ notifications:
   email: false
 node_js:
   - node
+  - lts/carbon
   - lts/boron
-  - lts/argon
-
