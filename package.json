@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "yarn prettier:check && eslint . && jest",
-    "prettier": "prettier --no-semi --single-quote --trailing-comma es5",
-    "prettier:check": "yarn prettier --list-different '**/*.js'",
-    "prettier:format": "yarn prettier --write '**/*.js'",
+    "prettier:check": "prettier --list-different '**/*.js'",
+    "prettier:format": "prettier --write '**/*.js'",
     "precommit": "lint-staged",
     "prerelease": "yarn test",
     "release": "standard-version -s"
@@ -27,24 +26,35 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn prettier -- --write",
+      "prettier --write",
       "eslint --fix",
       "jest --findRelatedTests",
       "git add"
     ]
   },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
   "eslintConfig": {
     "extends": "./index.js"
   },
+  "eslintIgnore": [
+    "__fixtures__"
+  ],
   "jest": {
     "testEnvironment": "node"
   },
   "dependencies": {
+    "babel-eslint": "^8.2.1",
     "eslint-config-prettier": "^2.3.0",
     "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.2.1",
     "eslint-plugin-standard": "^3.0.1"
   },
   "peerDependencies": {
