@@ -3,8 +3,9 @@
 exports[`@simonkberg/eslint-config should match the snapshot 1`] = `
 Object {
   "extends": Array [
-    "node_modules/eslint-config-standard/index.js",
-    "node_modules/eslint-config-prettier/index.js",
+    "<PROJECT_ROOT>/node_modules/eslint-config-standard/index.js",
+    "<PROJECT_ROOT>/node_modules/eslint-config-prettier/index.js",
+    "<PROJECT_ROOT>/node_modules/eslint-config-prettier/standard.js",
   ],
 }
 `;

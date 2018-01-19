@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@simonkberg/eslint-config should match the snapshot 1`] = `
+Object {
+  "env": Object {
+    "browser": true,
+  },
+  "extends": Array [
+    "<PROJECT_ROOT>/node_modules/eslint-config-standard-react/index.js",
+    "<PROJECT_ROOT>/node_modules/eslint-config-prettier/react.js",
+  ],
+  "parser": "<PROJECT_ROOT>/node_modules/babel-eslint/lib/index.js",
+  "rules": Object {
+    "jsx-quotes": "off",
+  },
+}
+`;

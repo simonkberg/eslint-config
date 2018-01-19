@@ -4,7 +4,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const config = require('./index.js')
+const config = require('./react.js')
 const { CLIEngine } = require('eslint')
 
 expect.addSnapshotSerializer({
@@ -19,16 +19,16 @@ describe('@simonkberg/eslint-config', () => {
     const cli = new CLIEngine({
       ignore: false,
       useEslintrc: false,
-      configFile: path.resolve(__dirname, 'index.js'),
+      configFile: path.resolve(__dirname, 'react.js'),
     })
 
     fs.readFile(
-      path.resolve(__dirname, '__fixtures__/base.js'),
+      path.resolve(__dirname, '__fixtures__/react.js'),
       'utf-8',
       (err, file) => {
         expect(err).toBeNull()
 
-        const { errorCount, warningCount } = cli.executeOnText(file, 'index.js')
+        const { errorCount, warningCount } = cli.executeOnText(file)
 
         expect(errorCount).toBe(0)
         expect(warningCount).toBe(0)
