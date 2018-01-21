@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.1"></a>
+## [8.0.1](https://github.com/simonkberg/eslint-config/compare/v8.0.0...v8.0.1) (2018-01-21)
+
+
+### Bug Fixes
+
+* add react.js to files to publish ([0207671](https://github.com/simonkberg/eslint-config/commit/0207671))
+
+
+
 <a name="8.0.0"></a>
 # [8.0.0](https://github.com/simonkberg/eslint-config/compare/v7.2.0...v8.0.0) (2018-01-21)
 
