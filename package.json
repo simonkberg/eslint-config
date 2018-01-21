@@ -69,6 +69,7 @@
     "standard-version": "^4.2.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "react.js"
   ]
 }
