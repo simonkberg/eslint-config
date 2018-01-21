@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/simonkberg/eslint-config/compare/v7.2.0...v8.0.0) (2018-01-21)
+
+
+### Chores
+
+* drop support for node 4 ([#28](https://github.com/simonkberg/eslint-config/issues/28)) ([0cf545e](https://github.com/simonkberg/eslint-config/commit/0cf545e))
+
+
+### Features
+
+* add additional react preset ([#29](https://github.com/simonkberg/eslint-config/issues/29)) ([86e58cf](https://github.com/simonkberg/eslint-config/commit/86e58cf))
+
+
+### BREAKING CHANGES
+
+* Only node 6+ is actively supported and tested.
+
+
+
 <a name="7.2.0"></a>
 # [7.2.0](https://github.com/simonkberg/eslint-config/compare/v7.1.0...v7.2.0) (2017-08-21)
 
