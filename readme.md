@@ -29,6 +29,26 @@ yarn add --dev @simonkberg/eslint-config
 }
 ```
 
+### Flow type config
+
+#### Extends:
+
+* [eslint-plugin-flowtype/recommended][eslint-plugin-flowtype]
+* [eslint-config-prettier/flowtype][eslint-config-prettier]
+
+#### Usage:
+
+```json
+{
+  "eslintConfig": {
+    "extends": [
+      "@simonkberg/eslint-config",
+      "@simonkberg/eslint-config/flowtype"
+    ]
+  }
+}
+```
+
 ### React config
 
 #### Extends:
@@ -53,3 +73,4 @@ yarn add --dev @simonkberg/eslint-config
 [eslint-config-standard]: https://github.com/standard/eslint-config-standard
 [eslint-config-standard-react]: https://github.com/standard/eslint-config-standard-react
 [eslint-config-prettier]: https://github.com/prettier/eslint-config-prettier
+[eslint-plugin-flowtype]: https://github.com/gajus/eslint-plugin-flowtype
