@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/simonkberg/eslint-config/compare/v8.1.0...v9.0.0) (2018-02-24)
+
+
+### Features
+
+* upgrade dependencies ([#38](https://github.com/simonkberg/eslint-config/issues/38)) ([ef65f2a](https://github.com/simonkberg/eslint-config/commit/ef65f2a))
+
+
+### BREAKING CHANGES
+
+* New linting errors. Minimum eslint version v4.18
+
+
+
 <a name="8.1.0"></a>
 # [8.1.0](https://github.com/simonkberg/eslint-config/compare/v8.0.1...v8.1.0) (2018-01-28)
 
