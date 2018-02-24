@@ -6,3 +6,5 @@ node_js:
   - node
   - lts/carbon
   - lts/boron
+install: yarn --frozen-lockfile
+
