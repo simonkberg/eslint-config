@@ -30,7 +30,9 @@ class TodoApp extends Component {
       <div>
         <h3>TODO</h3>
         <ul>
-          {this.state.items.map(item => <li key={item.id}>{item.text}</li>)}
+          {this.state.items.map(item => (
+            <li key={item.id}>{item.text}</li>
+          ))}
         </ul>
         <form onSubmit={this.handleSubmit}>
           <input onChange={this.handleChange} value={this.state.text} />
