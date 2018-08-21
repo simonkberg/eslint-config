@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="9.1.0"></a>
+# [9.1.0](https://github.com/simonkberg/eslint-config/compare/v9.0.1...v9.1.0) (2018-08-21)
+
+
+### Features
+
+* **deaps:** bump dependencies ([a2c6a9f](https://github.com/simonkberg/eslint-config/commit/a2c6a9f))
+* **deps:** update dependency eslint-config-prettier to v3 ([#42](https://github.com/simonkberg/eslint-config/issues/42)) ([be087aa](https://github.com/simonkberg/eslint-config/commit/be087aa))
+* **deps:** update dependency eslint-plugin-node to v7 ([#48](https://github.com/simonkberg/eslint-config/issues/48)) ([02cf827](https://github.com/simonkberg/eslint-config/commit/02cf827))
+* **deps:** update dependency eslint-plugin-promise to v4 ([#54](https://github.com/simonkberg/eslint-config/issues/54)) ([8ce37f6](https://github.com/simonkberg/eslint-config/commit/8ce37f6))
+
+
+
 <a name="9.0.1"></a>
 ## [9.0.1](https://github.com/simonkberg/eslint-config/compare/v9.0.0...v9.0.1) (2018-03-26)
 

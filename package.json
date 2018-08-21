@@ -1,5 +1,5 @@
 {
-  "version": "9.0.1",
+  "version": "9.1.0",
   "name": "@simonkberg/eslint-config",
   "description": "A shareable eslint config for my JavaScript projects",
   "main": "index.js",
