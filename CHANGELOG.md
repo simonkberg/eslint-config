@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="10.0.0"></a>
+# [10.0.0](https://github.com/simonkberg/eslint-config/compare/v9.1.0...v10.0.0) (2018-08-30)
+
+
+### Bug Fixes
+
+* set latest version of react by default ([#60](https://github.com/simonkberg/eslint-config/issues/60)) ([05cb377](https://github.com/simonkberg/eslint-config/commit/05cb377))
+
+
+### Features
+
+* **deps:** update dependency babel-eslint to v9 ([#55](https://github.com/simonkberg/eslint-config/issues/55)) ([cac0298](https://github.com/simonkberg/eslint-config/commit/cac0298))
+* **deps:** upgrade to eslint v5 ([#59](https://github.com/simonkberg/eslint-config/issues/59)) ([91b892d](https://github.com/simonkberg/eslint-config/commit/91b892d))
+
+
+### BREAKING CHANGES
+
+* **deps:** Requires eslint >=5 as peer dependency.
+
+
+
 <a name="9.1.0"></a>
 # [9.1.0](https://github.com/simonkberg/eslint-config/compare/v9.0.1...v9.1.0) (2018-08-21)
 
