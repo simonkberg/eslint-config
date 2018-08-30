@@ -13,5 +13,10 @@ Object {
   "rules": Object {
     "jsx-quotes": "off",
   },
+  "settings": Object {
+    "react": Object {
+      "version": "999.999.999",
+    },
+  },
 }
 `;
