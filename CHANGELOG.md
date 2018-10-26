@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="10.1.0"></a>
+# [10.1.0](https://github.com/simonkberg/eslint-config/compare/v10.0.0...v10.1.0) (2018-10-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([b607787](https://github.com/simonkberg/eslint-config/commit/b607787))
+* **deps:** update dependency babel-eslint to v10 ([#66](https://github.com/simonkberg/eslint-config/issues/66)) ([1b24052](https://github.com/simonkberg/eslint-config/commit/1b24052))
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-flowtype to v3 ([#74](https://github.com/simonkberg/eslint-config/issues/74)) ([07fd6f5](https://github.com/simonkberg/eslint-config/commit/07fd6f5))
+
+
+
 <a name="10.0.0"></a>
 # [10.0.0](https://github.com/simonkberg/eslint-config/compare/v9.1.0...v10.0.0) (2018-08-30)
 
