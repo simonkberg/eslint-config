@@ -10,8 +10,12 @@ Object {
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/react.js",
   ],
   "parser": "<PROJECT_ROOT>/node_modules/babel-eslint/lib/index.js",
+  "plugins": Array [
+    "react-hooks",
+  ],
   "rules": Object {
     "jsx-quotes": "off",
+    "react-hooks/rules-of-hooks": "error",
   },
   "settings": Object {
     "react": Object {
