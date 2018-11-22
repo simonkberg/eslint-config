@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="10.2.0"></a>
+# [10.2.0](https://github.com/simonkberg/eslint-config/compare/v10.1.0...v10.2.0) (2018-11-22)
+
+
+### Features
+
+* add react-hooks plugin & rule ([#84](https://github.com/simonkberg/eslint-config/issues/84)) ([549d4eb](https://github.com/simonkberg/eslint-config/commit/549d4eb))
+* **deps:** update dependency eslint-plugin-node to v8 ([#76](https://github.com/simonkberg/eslint-config/issues/76)) ([0823a36](https://github.com/simonkberg/eslint-config/commit/0823a36))
+
+
+
 <a name="10.1.0"></a>
 # [10.1.0](https://github.com/simonkberg/eslint-config/compare/v10.0.0...v10.1.0) (2018-10-26)
 
