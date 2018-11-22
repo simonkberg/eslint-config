@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="10.2.1"></a>
+## [10.2.1](https://github.com/simonkberg/eslint-config/compare/v10.2.0...v10.2.1) (2018-11-22)
+
+
+### Bug Fixes
+
+* **deps:** revert to eslint-plugin-node v7 ([1db8506](https://github.com/simonkberg/eslint-config/commit/1db8506))
+
+
+
 <a name="10.2.0"></a>
 # [10.2.0](https://github.com/simonkberg/eslint-config/compare/v10.1.0...v10.2.0) (2018-11-22)
 
