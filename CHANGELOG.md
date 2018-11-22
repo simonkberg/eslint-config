@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="11.0.0"></a>
+# [11.0.0](https://github.com/simonkberg/eslint-config/compare/v10.2.1...v11.0.0) (2018-11-22)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-node to v8 ([24dc2d0](https://github.com/simonkberg/eslint-config/commit/24dc2d0))
+
+
+### BREAKING CHANGES
+
+* **deps:** Introduces new errors
+
+
+
 <a name="10.2.1"></a>
 ## [10.2.1](https://github.com/simonkberg/eslint-config/compare/v10.2.0...v10.2.1) (2018-11-22)
 
