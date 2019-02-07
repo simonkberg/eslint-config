@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="11.1.0"></a>
+# [11.1.0](https://github.com/simonkberg/eslint-config/compare/v11.0.0...v11.1.0) (2019-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v4 ([#97](https://github.com/simonkberg/eslint-config/issues/97)) ([b67961e](https://github.com/simonkberg/eslint-config/commit/b67961e))
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to v1 ([#106](https://github.com/simonkberg/eslint-config/issues/106)) ([e437e15](https://github.com/simonkberg/eslint-config/commit/e437e15))
+* upgrade dependencies ([4d855f0](https://github.com/simonkberg/eslint-config/commit/4d855f0))
+
+
+
 <a name="11.0.0"></a>
 # [11.0.0](https://github.com/simonkberg/eslint-config/compare/v10.2.1...v11.0.0) (2018-11-22)
 
