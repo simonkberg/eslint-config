@@ -15,6 +15,7 @@ Object {
   ],
   "rules": Object {
     "jsx-quotes": "off",
+    "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
   },
   "settings": Object {

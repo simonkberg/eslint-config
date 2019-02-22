@@ -19,5 +19,6 @@ module.exports = {
     // Override for prettier due to config ordering
     'jsx-quotes': 'off',
     'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 }
