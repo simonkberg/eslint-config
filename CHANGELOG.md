@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [12.0.0](https://github.com/simonkberg/eslint-config/compare/v11.1.0...v12.0.0) (2019-02-22)
+
+
+### Features
+
+* add warning for react-hooks/exhaustive-deps ([4517786](https://github.com/simonkberg/eslint-config/commit/4517786))
+* upgrade dependencies ([15886ff](https://github.com/simonkberg/eslint-config/commit/15886ff))
+
+
+### BREAKING CHANGES
+
+* Potential new warnings
+
+
+
 <a name="11.1.0"></a>
 # [11.1.0](https://github.com/simonkberg/eslint-config/compare/v11.0.0...v11.1.0) (2019-02-07)
 
