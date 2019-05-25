@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@simonkberg/eslint-config should match the snapshot 1`] = `
+exports[`@simonkberg/eslint-config/react should match the snapshot 1`] = `
 Object {
   "env": Object {
     "browser": true,

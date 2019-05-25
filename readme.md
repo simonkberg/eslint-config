@@ -15,9 +15,9 @@ yarn add --dev @simonkberg/eslint-config
 
 #### Extends:
 
-* [eslint-config-standard]
-* [eslint-config-prettier]
-* [eslint-config-prettier/standard][eslint-config-prettier]
+- [eslint-config-standard]
+- [eslint-config-prettier]
+- [eslint-config-prettier/standard][eslint-config-prettier]
 
 #### Usage:
 
@@ -33,8 +33,8 @@ yarn add --dev @simonkberg/eslint-config
 
 #### Extends:
 
-* [eslint-plugin-flowtype/recommended][eslint-plugin-flowtype]
-* [eslint-config-prettier/flowtype][eslint-config-prettier]
+- [eslint-plugin-flowtype/recommended][eslint-plugin-flowtype]
+- [eslint-config-prettier/flowtype][eslint-config-prettier]
 
 #### Usage:
 
@@ -53,8 +53,8 @@ yarn add --dev @simonkberg/eslint-config
 
 #### Extends:
 
-* [eslint-config-standard-react]
-* [eslint-config-prettier/react][eslint-config-prettier]
+- [eslint-config-standard-react]
+- [eslint-config-prettier/react][eslint-config-prettier]
 
 #### Usage:
 
@@ -62,6 +62,26 @@ yarn add --dev @simonkberg/eslint-config
 {
   "eslintConfig": {
     "extends": ["@simonkberg/eslint-config", "@simonkberg/eslint-config/react"]
+  }
+}
+```
+
+### TypeScript config
+
+#### Extends:
+
+- [plugin:@typescript-eslint/recommended][@typescript-eslint/eslint-plugin]
+- [eslint-config-prettier/@typescript-eslint][eslint-config-prettier]
+
+#### Usage:
+
+```json
+{
+  "eslintConfig": {
+    "extends": [
+      "@simonkberg/eslint-config",
+      "@simonkberg/eslint-config/typescript"
+    ]
   }
 }
 ```
@@ -74,3 +94,4 @@ yarn add --dev @simonkberg/eslint-config
 [eslint-config-standard-react]: https://github.com/standard/eslint-config-standard-react
 [eslint-config-prettier]: https://github.com/prettier/eslint-config-prettier
 [eslint-plugin-flowtype]: https://github.com/gajus/eslint-plugin-flowtype
+[@typescript-eslint/eslint-plugin]: https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin

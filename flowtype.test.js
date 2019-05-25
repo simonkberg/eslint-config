@@ -12,7 +12,7 @@ expect.addSnapshotSerializer({
   test: val => typeof val === 'string',
 })
 
-describe('@simonkberg/eslint-config', () => {
+describe('@simonkberg/eslint-config/flowtype', () => {
   it('should match the snapshot', () => expect(config).toMatchSnapshot())
 
   it('should load config in eslint', done => {
