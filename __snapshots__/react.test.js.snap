@@ -20,7 +20,7 @@ Object {
   },
   "settings": Object {
     "react": Object {
-      "version": "999.999.999",
+      "version": "detect",
     },
   },
 }
