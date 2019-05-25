@@ -1,6 +1,30 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [13.0.0](https://github.com/simonkberg/eslint-config/compare/v12.0.0...v13.0.0) (2019-05-25)
+
+
+### chore
+
+* drop support for node v6 ([#134](https://github.com/simonkberg/eslint-config/issues/134)) ([6553a5f](https://github.com/simonkberg/eslint-config/commit/6553a5f))
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-node to v9 ([#129](https://github.com/simonkberg/eslint-config/issues/129)) ([0ff7c86](https://github.com/simonkberg/eslint-config/commit/0ff7c86))
+* add shared config for typescript ([#135](https://github.com/simonkberg/eslint-config/issues/135)) ([733129a](https://github.com/simonkberg/eslint-config/commit/733129a))
+* update react versions setting to "detect" ([51924ec](https://github.com/simonkberg/eslint-config/commit/51924ec))
+* upgrade packages to latest versions ([dd3c219](https://github.com/simonkberg/eslint-config/commit/dd3c219))
+
+
+### BREAKING CHANGES
+
+* New default behaviour
+* **deps:** Introduces new lint errors
+* Minimum supported node version is v8
+
+
 
 # [12.0.0](https://github.com/simonkberg/eslint-config/compare/v11.1.0...v12.0.0) (2019-02-22)
 
