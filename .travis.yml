@@ -4,7 +4,6 @@ notifications:
   email: false
 node_js:
   - node
+  - lts/dubnium
   - lts/carbon
-  - lts/boron
 install: yarn --frozen-lockfile
-
