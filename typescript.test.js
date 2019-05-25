@@ -4,7 +4,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const config = require('./react.js')
+const config = require('./typescript.js')
 const { CLIEngine } = require('eslint')
 
 expect.addSnapshotSerializer({
@@ -12,18 +12,18 @@ expect.addSnapshotSerializer({
   test: val => typeof val === 'string',
 })
 
-describe('@simonkberg/eslint-config/react', () => {
+describe('@simonkberg/eslint-config/typescript', () => {
   it('should match the snapshot', () => expect(config).toMatchSnapshot())
 
   it('should load config in eslint', done => {
     const cli = new CLIEngine({
       ignore: false,
       useEslintrc: false,
-      configFile: path.resolve(__dirname, 'react.js'),
+      configFile: path.resolve(__dirname, 'typescript.js'),
     })
 
     fs.readFile(
-      path.resolve(__dirname, '__fixtures__/react.js'),
+      path.resolve(__dirname, '__fixtures__/typescript.ts'),
       'utf-8',
       (err, file) => {
         expect(err).toBeNull()

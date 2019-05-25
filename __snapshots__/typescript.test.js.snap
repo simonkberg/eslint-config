@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@simonkberg/eslint-config/typescript should match the snapshot 1`] = `
+Object {
+  "extends": Array [
+    "plugin:@typescript-eslint/recommended",
+    "<PROJECT_ROOT>/node_modules/eslint-config-prettier/@typescript-eslint.js",
+  ],
+  "parser": "<PROJECT_ROOT>/node_modules/@typescript-eslint/parser/dist/parser.js",
+  "plugins": Array [
+    "@typescript-eslint",
+  ],
+}
+`;
