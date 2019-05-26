@@ -80,6 +80,7 @@
   "files": [
     "index.js",
     "flowtype.js",
-    "react.js"
+    "react.js",
+    "typescript.js"
   ]
 }
