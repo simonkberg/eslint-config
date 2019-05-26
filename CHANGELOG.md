@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [13.0.1](https://github.com/simonkberg/eslint-config/compare/v13.0.0...v13.0.1) (2019-05-26)
+
+
+### Bug Fixes
+
+* publish typescript.js ([361ddf1](https://github.com/simonkberg/eslint-config/commit/361ddf1))
+
+
+
 ## [13.0.0](https://github.com/simonkberg/eslint-config/compare/v12.0.0...v13.0.0) (2019-05-25)
 
 
