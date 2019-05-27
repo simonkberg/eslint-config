@@ -7,5 +7,16 @@ Object {
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/index.js",
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/standard.js",
   ],
+  "overrides": Array [
+    Object {
+      "env": Object {
+        "jest": true,
+      },
+      "files": Array [
+        "**/__tests__/**/*.js",
+        "**/?(*.)+(spec|test).js",
+      ],
+    },
+  ],
 }
 `;
