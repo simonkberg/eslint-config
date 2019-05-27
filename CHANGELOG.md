@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [13.2.0](https://github.com/simonkberg/eslint-config/compare/v13.1.0...v13.2.0) (2019-05-27)
+
+
+### Features
+
+* add overrides for jest files ([#138](https://github.com/simonkberg/eslint-config/issues/138)) ([288a9bd](https://github.com/simonkberg/eslint-config/commit/288a9bd))
+
+
+
 ## [13.1.0](https://github.com/simonkberg/eslint-config/compare/v13.0.1...v13.1.0) (2019-05-27)
 
 
