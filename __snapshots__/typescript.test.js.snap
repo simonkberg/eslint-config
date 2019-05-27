@@ -6,9 +6,59 @@ Object {
     "plugin:@typescript-eslint/recommended",
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/@typescript-eslint.js",
   ],
+  "overrides": Array [
+    Object {
+      "files": Array [
+        "*.ts",
+        "*.tsx",
+      ],
+      "rules": Object {
+        "no-const-assign": "off",
+        "no-dupe-args": "off",
+        "no-dupe-keys": "off",
+        "no-new-symbol": "off",
+        "no-this-before-super": "off",
+        "no-unreachable": "off",
+        "valid-typeof": "off",
+      },
+    },
+  ],
   "parser": "<PROJECT_ROOT>/node_modules/@typescript-eslint/parser/dist/parser.js",
   "plugins": Array [
     "@typescript-eslint",
   ],
+  "rules": Object {
+    "@typescript-eslint/camelcase": Array [
+      "error",
+      Object {
+        "properties": "never",
+      },
+    ],
+    "@typescript-eslint/explicit-function-return-type": Array [
+      "warn",
+      Object {
+        "allowExpressions": true,
+        "allowTypedFunctionExpressions": true,
+      },
+    ],
+    "@typescript-eslint/no-unused-vars": Array [
+      "error",
+      Object {
+        "args": "none",
+        "ignoreRestSiblings": true,
+        "vars": "all",
+      },
+    ],
+    "@typescript-eslint/no-use-before-define": Array [
+      "error",
+      Object {
+        "classes": false,
+        "functions": false,
+        "typedefs": false,
+        "variables": false,
+      },
+    ],
+    "@typescript-eslint/prefer-interface": "off",
+  },
 }
 `;
