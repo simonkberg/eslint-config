@@ -9,6 +9,17 @@ Object {
     "<PROJECT_ROOT>/node_modules/eslint-config-standard-react/index.js",
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/react.js",
   ],
+  "overrides": Array [
+    Object {
+      "env": Object {
+        "jest": true,
+      },
+      "files": Array [
+        "**/__tests__/**/*.jsx",
+        "**/?(*.)+(spec|test).jsx",
+      ],
+    },
+  ],
   "parser": "<PROJECT_ROOT>/node_modules/babel-eslint/lib/index.js",
   "plugins": Array [
     "react-hooks",

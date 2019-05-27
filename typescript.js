@@ -42,7 +42,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['*.ts?(x)'],
       rules: {
         // Checked by Typescript - ts(2300)
         'no-dupe-args': 'off',
@@ -59,6 +59,10 @@ module.exports = {
         // Checked by Typescript - ts(2376)
         'no-this-before-super': 'off',
       },
+    },
+    {
+      files: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],
+      env: { jest: true },
     },
   ],
 }

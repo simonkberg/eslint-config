@@ -9,8 +9,7 @@ Object {
   "overrides": Array [
     Object {
       "files": Array [
-        "*.ts",
-        "*.tsx",
+        "*.ts?(x)",
       ],
       "rules": Object {
         "no-const-assign": "off",
@@ -22,6 +21,15 @@ Object {
         "valid-typeof": "off",
       },
     },
+    Object {
+      "env": Object {
+        "jest": true,
+      },
+      "files": Array [
+        "**/__tests__/**/*.ts?(x)",
+        "**/?(*.)+(spec|test).ts?(x)",
+      ],
+    },
   ],
   "parser": "<PROJECT_ROOT>/node_modules/@typescript-eslint/parser/dist/parser.js",
   "plugins": Array [
@@ -31,6 +39,7 @@ Object {
     "@typescript-eslint/camelcase": Array [
       "error",
       Object {
+        "ignoreDestructuring": false,
         "properties": "never",
       },
     ],
