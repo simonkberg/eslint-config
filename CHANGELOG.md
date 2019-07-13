@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.0.0](https://github.com/simonkberg/eslint-config/compare/v13.2.0...v14.0.0) (2019-07-13)
+
+
+### Features
+
+* upgrade dependencies ([#157](https://github.com/simonkberg/eslint-config/issues/157)) ([d0176de](https://github.com/simonkberg/eslint-config/commit/d0176de))
+
+
+### BREAKING CHANGES
+
+* Major versions might introduce new errors
+
+
+
 ## [13.2.0](https://github.com/simonkberg/eslint-config/compare/v13.1.0...v13.2.0) (2019-05-27)
 
 
