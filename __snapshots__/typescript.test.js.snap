@@ -39,7 +39,6 @@ Object {
     "@typescript-eslint/camelcase": Array [
       "error",
       Object {
-        "ignoreDestructuring": false,
         "properties": "never",
       },
     ],
