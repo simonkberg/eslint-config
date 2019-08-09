@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.0.0](https://github.com/simonkberg/eslint-config/compare/v14.0.0...v15.0.0) (2019-08-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** Requires ESLint v6.1.0
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-flowtype to v4 ([#165](https://github.com/simonkberg/eslint-config/issues/165)) ([7cfceae](https://github.com/simonkberg/eslint-config/commit/7cfceae))
+
+
+### Features
+
+* upgrade dependencies ([32f10d0](https://github.com/simonkberg/eslint-config/commit/32f10d0))
+
 ## [14.0.0](https://github.com/simonkberg/eslint-config/compare/v13.2.0...v14.0.0) (2019-07-13)
 
 
