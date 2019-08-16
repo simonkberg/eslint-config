@@ -4,23 +4,10 @@ exports[`@simonkberg/eslint-config/typescript should match the snapshot 1`] = `
 Object {
   "extends": Array [
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/@typescript-eslint.js",
   ],
   "overrides": Array [
-    Object {
-      "files": Array [
-        "*.ts?(x)",
-      ],
-      "rules": Object {
-        "no-const-assign": "off",
-        "no-dupe-args": "off",
-        "no-dupe-keys": "off",
-        "no-new-symbol": "off",
-        "no-this-before-super": "off",
-        "no-unreachable": "off",
-        "valid-typeof": "off",
-      },
-    },
     Object {
       "env": Object {
         "jest": true,
@@ -50,7 +37,7 @@ Object {
       },
     ],
     "@typescript-eslint/no-unused-vars": Array [
-      "error",
+      "warn",
       Object {
         "args": "none",
         "ignoreRestSiblings": true,
@@ -66,7 +53,6 @@ Object {
         "variables": false,
       },
     ],
-    "@typescript-eslint/prefer-interface": "off",
   },
 }
 `;

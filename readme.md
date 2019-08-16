@@ -71,6 +71,7 @@ yarn add --dev @simonkberg/eslint-config
 #### Extends:
 
 - [plugin:@typescript-eslint/recommended][@typescript-eslint/eslint-plugin]
+- [plugin:@typescript-eslint/eslint-recommended][@typescript-eslint/eslint-plugin]
 - [eslint-config-prettier/@typescript-eslint][eslint-config-prettier]
 
 #### Usage:

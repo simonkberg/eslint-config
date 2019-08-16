@@ -5,6 +5,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
     require.resolve('eslint-config-prettier/@typescript-eslint'),
   ],
   rules: {
@@ -21,9 +22,8 @@ module.exports = {
         allowTypedFunctionExpressions: true,
       },
     ],
-    '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/no-unused-vars': [
-      'error',
+      'warn',
       {
         vars: 'all',
         args: 'none',
@@ -41,25 +41,6 @@ module.exports = {
     ],
   },
   overrides: [
-    {
-      files: ['*.ts?(x)'],
-      rules: {
-        // Checked by Typescript - ts(2300)
-        'no-dupe-args': 'off',
-        // Checked by Typescript - ts(1117)
-        'no-dupe-keys': 'off',
-        // Checked by Typescript - ts(7027)
-        'no-unreachable': 'off',
-        // Checked by Typescript - ts(2367)
-        'valid-typeof': 'off',
-        // Checked by Typescript - ts(2588)
-        'no-const-assign': 'off',
-        // Checked by Typescript - ts(2588)
-        'no-new-symbol': 'off',
-        // Checked by Typescript - ts(2376)
-        'no-this-before-super': 'off',
-      },
-    },
     {
       files: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],
       env: { jest: true },
