@@ -61,7 +61,7 @@
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^13.0.1",
     "eslint-config-standard-react": "^8.0.0",
-    "eslint-plugin-flowtype": "^4.0.0",
+    "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.0.0",
     "eslint-plugin-promise": "^4.2.1",
