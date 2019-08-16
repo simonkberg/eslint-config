@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [16.0.0](https://github.com/simonkberg/eslint-config/compare/v15.0.0...v16.0.0) (2019-08-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** might introduce new lint errors
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v2 ([#166](https://github.com/simonkberg/eslint-config/issues/166)) ([5f31ec0](https://github.com/simonkberg/eslint-config/commit/5f31ec0))
+* update to eslint-plugin-flowtype@4.2.0 ([2e61726](https://github.com/simonkberg/eslint-config/commit/2e61726))
+
 ## [15.0.0](https://github.com/simonkberg/eslint-config/compare/v14.0.0...v15.0.0) (2019-08-09)
 
 
