@@ -1,9 +1,0 @@
-language: node_js
-cache: yarn
-notifications:
-  email: false
-node_js:
-  - node
-  - lts/dubnium
-  - lts/carbon
-install: yarn --frozen-lockfile
