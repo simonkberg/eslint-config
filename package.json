@@ -80,7 +80,7 @@
     "prettier": "1.18.2",
     "react": "16.9.0",
     "standard-version": "7.0.0",
-    "typescript": "3.6.2"
+    "typescript": "3.6.3"
   },
   "files": [
     "index.js",
