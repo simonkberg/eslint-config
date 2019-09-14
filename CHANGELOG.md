@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.0.0](https://github.com/simonkberg/eslint-config/compare/v17.0.0...v18.0.0) (2019-09-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Might introduce new lint errors
+
+### Features
+
+* Update dependencies ([#186](https://github.com/simonkberg/eslint-config/issues/186)) ([7de0d64](https://github.com/simonkberg/eslint-config/commit/7de0d64))
+
 ## [17.0.0](https://github.com/simonkberg/eslint-config/compare/v16.0.0...v17.0.0) (2019-08-20)
 
 
