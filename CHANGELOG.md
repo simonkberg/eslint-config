@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [18.1.0](https://github.com/simonkberg/eslint-config/compare/v18.0.0...v18.1.0) (2019-09-28)
+
+
+### Features
+
+* **deps:** upgrade dependencies ([#191](https://github.com/simonkberg/eslint-config/issues/191)) ([099a60c](https://github.com/simonkberg/eslint-config/commit/099a60c))
+
 ## [18.0.0](https://github.com/simonkberg/eslint-config/compare/v17.0.0...v18.0.0) (2019-09-14)
 
 
