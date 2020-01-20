@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "yarn prettier:check && eslint . && jest",
-    "prettier:check": "prettier --list-different '**/*.js'",
-    "prettier:format": "prettier --write '**/*.js'",
+    "prettier:check": "prettier --list-different '**/*.{js?(on),ts?(x),md,y?(a)ml}'",
+    "prettier:format": "prettier --write '**/*.{js?(on),ts?(x),md,y?(a)ml}'",
     "prerelease": "yarn test",
     "release": "standard-version -s"
   },
@@ -32,8 +32,10 @@
     "*.js": [
       "prettier --write",
       "eslint --fix",
-      "jest --findRelatedTests",
-      "git add"
+      "jest --findRelatedTests"
+    ],
+    "*.{json,ts?(x),md,y?(a)ml}": [
+      "prettier --write"
     ]
   },
   "prettier": {
@@ -74,9 +76,9 @@
   },
   "devDependencies": {
     "eslint": "6.8.0",
-    "husky": "3.1.0",
+    "husky": "4.0.10",
     "jest": "24.9.0",
-    "lint-staged": "9.5.0",
+    "lint-staged": "10.0.1",
     "prettier": "1.19.1",
     "react": "16.12.0",
     "standard-version": "7.0.1",
