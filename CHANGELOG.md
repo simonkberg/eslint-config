@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [20.0.0](https://github.com/simonkberg/eslint-config/compare/v19.0.0...v20.0.0) (2020-01-20)
+
+### ⚠ BREAKING CHANGES
+
+- requires node v10+
+
+### Features
+
+- **deps:** upgrade dependencies ([625060b](https://github.com/simonkberg/eslint-config/commit/625060ba5ea13762d591e6391a8882a228ae2fae))
+
+* drop support for node 8 ([#220](https://github.com/simonkberg/eslint-config/issues/220)) ([4411c1d](https://github.com/simonkberg/eslint-config/commit/4411c1d3c18cbbe0af98414c4b273b52af78fc03))
+
 ## [19.0.0](https://github.com/simonkberg/eslint-config/compare/v18.2.1...v19.0.0) (2019-12-26)
 
 ### ⚠ BREAKING CHANGES
