@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [20.1.1](https://github.com/simonkberg/eslint-config/compare/v20.1.0...v20.1.1) (2020-03-16)
+
+### Bug Fixes
+
+- lock-file maintenance ([540d690](https://github.com/simonkberg/eslint-config/commit/540d690f1ad5ae911a631b19af34cf78e985ac6c))
+
 ## [20.1.0](https://github.com/simonkberg/eslint-config/compare/v20.0.0...v20.1.0) (2020-03-16)
 
 ### Features
