@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     require.resolve('eslint-config-standard-react'),
     require.resolve('eslint-config-prettier/react'),
-    'plugin:react-hooks/recommended',
   ],
   settings: {
     react: {
@@ -19,6 +18,8 @@ module.exports = {
   rules: {
     // Override for prettier due to config ordering
     'jsx-quotes': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   overrides: [
     {
