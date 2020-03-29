@@ -8,6 +8,7 @@ Object {
   "extends": Array [
     "<PROJECT_ROOT>/node_modules/eslint-config-standard-react/index.js",
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/react.js",
+    "plugin:react-hooks/recommended",
   ],
   "overrides": Array [
     Object {
@@ -26,8 +27,6 @@ Object {
   ],
   "rules": Object {
     "jsx-quotes": "off",
-    "react-hooks/exhaustive-deps": "warn",
-    "react-hooks/rules-of-hooks": "error",
   },
   "settings": Object {
     "react": Object {
