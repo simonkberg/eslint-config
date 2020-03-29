@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [21.0.0](https://github.com/simonkberg/eslint-config/compare/v20.2.0...v21.0.0) (2020-03-29)
+
+### ⚠ BREAKING CHANGES
+
+- Major dependency upgrade may introduce new lint errors
+
+### Features
+
+- upgrade dependencies and use recommended rules ([#241](https://github.com/simonkberg/eslint-config/issues/241)) ([2567bcf](https://github.com/simonkberg/eslint-config/commit/2567bcfdeb1c09b27368024ccd66d472f3293776))
+
 ## [20.2.0](https://github.com/simonkberg/eslint-config/compare/v20.1.1...v20.2.0) (2020-03-23)
 
 ### Features
