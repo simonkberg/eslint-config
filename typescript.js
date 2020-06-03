@@ -5,16 +5,9 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
     require.resolve('eslint-config-prettier/@typescript-eslint'),
   ],
   rules: {
-    '@typescript-eslint/camelcase': [
-      'error',
-      {
-        properties: 'never',
-      },
-    ],
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
       {

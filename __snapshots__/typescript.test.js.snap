@@ -4,7 +4,6 @@ exports[`@simonkberg/eslint-config/typescript should match the snapshot 1`] = `
 Object {
   "extends": Array [
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
     "<PROJECT_ROOT>/node_modules/eslint-config-prettier/@typescript-eslint.js",
   ],
   "overrides": Array [
@@ -18,17 +17,11 @@ Object {
       ],
     },
   ],
-  "parser": "<PROJECT_ROOT>/node_modules/@typescript-eslint/parser/dist/parser.js",
+  "parser": "<PROJECT_ROOT>/node_modules/@typescript-eslint/parser/dist/index.js",
   "plugins": Array [
     "@typescript-eslint",
   ],
   "rules": Object {
-    "@typescript-eslint/camelcase": Array [
-      "error",
-      Object {
-        "properties": "never",
-      },
-    ],
     "@typescript-eslint/explicit-function-return-type": Array [
       "warn",
       Object {
