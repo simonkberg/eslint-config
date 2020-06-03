@@ -1,4 +1,4 @@
-type $Values<O extends object> = O[keyof O]
+type $Values<O extends Record<string, unknown>> = O[keyof O]
 
 export const CONSTANTS = {
   FOO: 'foo',
