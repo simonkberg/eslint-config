@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [23.2.0](https://github.com/simonkberg/eslint-config/compare/v23.1.0...v23.2.0) (2020-07-14)
+
+### Features
+
+- **deps:** update dependencies ([#283](https://github.com/simonkberg/eslint-config/issues/283)) ([86bff53](https://github.com/simonkberg/eslint-config/commit/86bff534dd647e0cfedb95796d79ffe279681b53))
+
 ## [23.1.0](https://github.com/simonkberg/eslint-config/compare/v23.0.0...v23.1.0) (2020-07-03)
 
 ### Features
