@@ -76,7 +76,7 @@
     "eslint": ">=5"
   },
   "devDependencies": {
-    "@types/jest": "26.0.4",
+    "@types/jest": "26.0.13",
     "eslint": "7.4.0",
     "husky": "4.2.5",
     "jest": "26.1.0",
