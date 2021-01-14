@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>myorgname/.github:renovate-config",
+    "local>simonkberg/.github:renovate-config",
     ":pinOnlyDevDependencies"
   ]
 }
