@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [25.0.0](https://github.com/simonkberg/eslint-config/compare/v24.0.0...v25.0.0) (2021-01-17)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** can introduce new violations
+
+### Features
+
+- **deps:** update dependencies ([#323](https://github.com/simonkberg/eslint-config/issues/323)) ([ebbfb14](https://github.com/simonkberg/eslint-config/commit/ebbfb148c8e6076a56137935c398f465cd46874e))
+
 ## [24.0.0](https://github.com/simonkberg/eslint-config/compare/v23.2.0...v24.0.0) (2020-09-17)
 
 ### ⚠ BREAKING CHANGES
